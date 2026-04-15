@@ -2,6 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://bluethroatlabs.com/docs",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://bluethroatlabs.com/docs/:path*",
       "permanent": true
