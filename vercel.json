@@ -1,9 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "redirects": [
     {
       "source": "/:path*",
-      "destination": "https://bluethroatlabs.com/docs/:path*"
+      "destination": "https://bluethroatlabs.com/docs/:path*",
+      "permanent": true
     }
   ]
 }
