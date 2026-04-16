@@ -21,6 +21,7 @@ const sidebars = {
           collapsed: true,
           items: [
             { type: 'doc', id: 'Platforms/04C_aws-nitro-threat-vectors-paranoid', label: 'AWS Nitro Threat Vectors [PARANOID]' },
+            { type: 'doc', id: 'Platforms/04E_aws-nitro-workflow', label: 'AWS Nitro Enclaves Workflow' },
           ],
         },
         { type: 'doc', id: 'Platforms/04D_dstack-decentralized-cloud-tees', label: 'Dstack – Decentralized Cloud TEEs' },
